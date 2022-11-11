@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./imagens/3428079_accounting_calculate_calculator_finance_icon.svg" type="image/x-icon">
+    <title>Calculadora juros simples</title>
+</head>
+<body>
+    <h1>Calculadora de juros simples</h1>
+    <div class="sectin-itens">
+        <div class="container">
+                <div class="title">
+                    <h2>Calculadora de juros simples</h2>
+                </div>
+                <div class="area-dados">
+                    <div class="input-valores" id="">
+                        <!-- <label for="valor-inicial" class="label-input">Valor Inicial</label> -->
+                        <p>Valor Inicial</p>
+                        <input type="number" class="input-entrada" id="valor-inicial">
+                    </div>
+                    <div class="input-valores">
+                        <!-- <label for="Taxa de juros" class="label-input">Taxa de juros</label> -->
+                        <p>Taxa de juros</p>
+                        <input type="number" class="input-entrada" id="Taxa de juros">
+                        <select name="" id="">
+                            <option value="" class="select-option">Anual</option>
+                            <option value="">Mensal</option>
+                        </select>
+                    </div>
+                    <div class="input-valores">
+                        <!-- <label for="periodo" class="label-input">Periodo</label> -->
+                        <p>Periodo</p>
+                        <input type="number" class="input-entrada" id="periodo">
+                        <select name="" id="">
+                            <option value="">Anos</option>
+                            <option value="">Meses</option>
+                        </select>
+                    </div>
+            </div>
+                <div class="buttons-calculation">
+                    <input type="submit" class="button-calculo" value="CALCULAR" class="button-calc">
+                    <input type="submit" class="limpar-dados" value="LIMPAR" class="button-clean">
+                </div>
+        </div>
+    </div>
+    <div class="section-result">
+        
+        <div class="resultados">
+            <h2>Resultados</h2>
+            <div class="area-result">
+                <div class="box-result">
+                    <p>Valor total final</p>
+                    <div class="container-resultados"></div>
+                </div>
+                <div class="box-result">
+                    <p>Valor total investido</p>
+                    <div class="container-resultados"></div>
+                </div>
+                <div class="box-result">
+                    <p>Total em juros</p>
+                    <div class="container-resultados"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
